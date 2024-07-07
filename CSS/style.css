@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    padding: 35vh;
+    font-size: 6rem;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between; 
+}
+
+
+div {
+    width: 20em;
+    height: 20em;
+    padding: 2em;
+    margin: 2em;
+    border: black solid 0.25em;
+        
+}
+
+p {
+    margin: 1em;
+}
